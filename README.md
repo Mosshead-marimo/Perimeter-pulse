@@ -25,7 +25,7 @@ docker compose up --build
 ## Run and Access
 
 After containers start:
-- Frontend: `http://localhost:5173`
+- Frontend: `http://localhost`
 - Backend health check: `http://localhost:5000/health`
 
 Use the frontend to sign up/login and upload logs for analysis.
