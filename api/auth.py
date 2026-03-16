@@ -1,14 +1,17 @@
 from flask import Blueprint, request, session
 from werkzeug.security import generate_password_hash, check_password_hash
 import sqlite3
+import os
+from pathlib import Path
 
 auth_bp = Blueprint("auth", __name__)
 
-DB_PATH = "auth.db"
+DB_PATH = os.getenv("DB_PATH", "auth.db")
 
 # ---------- DB HELPERS ----------
 
 def get_db():
+    Path(DB_PATH).parent.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     return conn
