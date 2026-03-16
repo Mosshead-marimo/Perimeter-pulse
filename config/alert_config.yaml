@@ -1,0 +1,11 @@
+alerts:
+  email:
+    enabled: true
+    smtp_server: smtp.gmail.com
+    smtp_port: 587
+    sender: security@company.com
+    recipient: soc@company.com
+
+  siem:
+    enabled: true
+    export_path: data/siem_exports

@@ -1,0 +1,8 @@
+{
+    "last_run": "2026-03-16T05:16:10.876984",
+    "logs_processed": 2000,
+    "anomaly_score": 10,
+    "risk_score": 4,
+    "leakage_indicators": 0,
+    "severity": "LOW"
+}

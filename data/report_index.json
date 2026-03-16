@@ -1,0 +1,82 @@
+[
+  {
+    "report_id": "20260316051611069948",
+    "timestamp": "2026-03-16T05:16:11.103205",
+    "uploaded_file": "Windows_2k.log",
+    "severity": "LOW",
+    "risk_score": 4,
+    "anomaly_score": 10
+  },
+  {
+    "report_id": "20260316051059717573",
+    "timestamp": "2026-03-16T05:10:59.758356",
+    "uploaded_file": "Linux_2k.log",
+    "severity": "LOW",
+    "risk_score": 16,
+    "anomaly_score": 21
+  },
+  {
+    "report_id": "20260316050219673947",
+    "timestamp": "2026-03-16T05:02:19.731788",
+    "uploaded_file": "HDFS_2k.log",
+    "severity": "LOW",
+    "risk_score": 2,
+    "anomaly_score": 6
+  },
+  {
+    "report_id": "20260316045357153945",
+    "timestamp": "2026-03-16T04:53:57.189180",
+    "uploaded_file": "HDFS_2k.log",
+    "severity": "LOW",
+    "risk_score": 2,
+    "anomaly_score": 6
+  },
+  {
+    "report_id": "20260316042656279694",
+    "timestamp": "2026-03-16T04:26:56.314986",
+    "uploaded_file": "Windows_2k.log",
+    "severity": "LOW",
+    "risk_score": 4,
+    "anomaly_score": 10
+  },
+  {
+    "report_id": "20260315154545066673",
+    "timestamp": "2026-03-15T15:45:45.101078",
+    "uploaded_file": "Windows_2k.log",
+    "severity": "LOW",
+    "risk_score": 4,
+    "anomaly_score": 10
+  },
+  {
+    "report_id": "20260315151607685193",
+    "timestamp": "2026-03-15T15:16:07.730551",
+    "uploaded_file": "Linux_2k.log",
+    "severity": "LOW",
+    "risk_score": 16,
+    "anomaly_score": 21
+  },
+  {
+    "report_id": "20260315150846947687",
+    "timestamp": "2026-03-15T15:08:46.986432",
+    "uploaded_file": "Linux_2k.log",
+    "severity": "LOW",
+    "risk_score": 16,
+    "anomaly_score": 21
+  },
+  {
+    "report_id": "20260315150607295046",
+    "timestamp": "2026-03-15T15:06:07.327141",
+    "uploaded_file": "HDFS_2k.log",
+    "severity": "LOW",
+    "risk_score": 2,
+    "anomaly_score": 6
+  },
+  {
+    "report_id": "20260315150547080200",
+    "timestamp": "2026-03-15T15:05:47.121161",
+    "uploaded_file": "Windows_2k.log",
+    "severity": "LOW",
+    "risk_score": 4,
+    "anomaly_score": 10
+  }
+]

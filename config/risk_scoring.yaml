@@ -1,0 +1,25 @@
+# Placeholder for config/risk_scoring.yaml
+# Risk Scoring & Alert Trigger Configuration
+
+risk_weights:
+  anomaly_score: 0.4
+  data_volume: 0.25
+  destination_risk: 0.2
+  temporal_anomaly: 0.15
+
+severity_thresholds:
+  LOW: 20
+  MEDIUM: 45
+  HIGH: 70
+  CRITICAL: 85
+
+leakage_indicators:
+  outbound_data_spike_mb: 50
+  unknown_destination_ratio: 0.6
+  off_hours_activity: true
+  repeated_beaconing_count: 10
+
+alerting:
+  trigger_on_severity:
+    - HIGH
+    - CRITICAL

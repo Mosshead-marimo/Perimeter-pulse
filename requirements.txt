@@ -1,0 +1,27 @@
+# Placeholder for requirements.txt
+# Web API
+Flask>=3.0.0
+Flask-Cors>=4.0.0
+
+# Core language & data handling
+python-dateutil>=2.8.2
+pandas>=2.1.0
+numpy>=1.26.0
+
+# Machine Learning
+scikit-learn>=1.4.0
+
+# Dashboard (offline-friendly)
+streamlit>=1.32.0
+
+# Serialization & formats
+pyyaml>=6.0.1
+
+# Windows-specific (optional but recommended)
+pywin32>=306 ; platform_system == "Windows"
+
+# Testing (dev only)
+pytest>=8.0.0
+
+# Deep learning (optional, disabled by default)
+tensorflow>=2.15.0 ; extra == "deep"

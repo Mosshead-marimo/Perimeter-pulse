@@ -1,0 +1,24 @@
+# Placeholder for config/logging_config.yaml
+# Logging configuration for forensic-grade traceability
+
+version: 1
+
+formatters:
+  standard:
+    format: "[%(asctime)s] [%(levelname)s] [%(module)s] %(message)s"
+
+handlers:
+  file:
+    class: logging.FileHandler
+    level: INFO
+    formatter: standard
+    filename: logs/system_activity.log
+
+  console:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: standard
+
+root:
+  level: INFO
+  handlers: [file, console]

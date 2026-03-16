@@ -1,0 +1,38 @@
+# Placeholder for config/model_config.yaml
+# Machine Learning & Anomaly Detection Configuration
+
+models:
+  isolation_forest:
+    enabled: true
+    n_estimators: 150
+    max_samples: auto
+    contamination: 0.03
+    random_state: 42
+
+  one_class_svm:
+    enabled: true
+    kernel: rbf
+    nu: 0.05
+    gamma: scale
+
+  autoencoder:
+    enabled: false
+    latent_dim: 8
+    epochs: 30
+    batch_size: 32
+
+ensemble:
+  model_weights:
+    isolation_forest: 0.6
+    one_class_svm: 0.4
+    autoencoder: 0.0
+
+thresholding:
+  method: zscore
+  sensitivity: 2.7
+  baseline_window: 500
+
+feature_selection:
+  enable_entropy_features: true
+  enable_temporal_features: true
+  enable_process_features: true

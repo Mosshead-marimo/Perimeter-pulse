@@ -1,0 +1,23 @@
+# Placeholder for config/app_config.yaml
+# Application-level configuration
+
+app:
+  name: Firewall Log Analyzer
+  version: 1.0.0
+  mode: offline            # offline | online
+  environment: production  # development | production
+
+paths:
+  firewall_log_path: "data/raw_logs/pfirewall.log"
+  parsed_log_path: "data/parsed_logs/firewall_logs.json"
+  feature_store_path: "data/features/feature_vectors.parquet"
+  baseline_store_path: "data/baselines/system_baseline.pkl"
+
+logging:
+  level: INFO
+  log_file: "logs/application.log"
+
+runtime:
+  real_time_monitoring: true
+  batch_interval_seconds: 60
+  max_log_file_size_mb: 50

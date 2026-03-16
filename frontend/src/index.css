@@ -1,0 +1,56 @@
+:root {
+  font-family: "Segoe UI", "Trebuchet MS", "Franklin Gothic Medium", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #0f172a;
+  background:
+    radial-gradient(circle at 15% 10%, #dbeafe 0%, transparent 40%),
+    radial-gradient(circle at 85% 0%, #ccfbf1 0%, transparent 35%),
+    #f8fafc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+}
+
+a {
+  color: #0f766e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #115e59;
+  text-decoration: underline;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  padding: 0.55rem 1rem;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: #0f766e;
+}

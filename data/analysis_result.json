@@ -1,0 +1,76 @@
+{
+    "report_id": "20260316051611069948",
+    "timestamp": "2026-03-16T05:16:11.103205",
+    "host": "UPLOADED-SOURCE",
+    "uploaded_file": "Windows_2k.log",
+    "anomaly_score": 10,
+    "anomaly_breakdown": [
+        {
+            "name": "data_volume",
+            "signal": 0.0,
+            "weight": 0.25,
+            "contribution": 0.0
+        },
+        {
+            "name": "error_ratio",
+            "signal": 0,
+            "weight": 0.2,
+            "contribution": 0.0
+        },
+        {
+            "name": "off_hours_activity",
+            "signal": 0,
+            "weight": 0.2,
+            "contribution": 0.0
+        },
+        {
+            "name": "port_entropy",
+            "signal": 0.47,
+            "weight": 0.15,
+            "contribution": 0.07
+        },
+        {
+            "name": "destination_entropy",
+            "signal": 100,
+            "weight": 0.1,
+            "contribution": 10.0
+        },
+        {
+            "name": "rare_processes",
+            "signal": 0,
+            "weight": 0.1,
+            "contribution": 0.0
+        }
+    ],
+    "risk_score": 4,
+    "risk_breakdown": {
+        "anomaly_component": 4.0,
+        "leakage_component": 0.0,
+        "data_volume_component": 0.0,
+        "temporal_component": 0.0
+    },
+    "severity": "LOW",
+    "leakage_count": 0,
+    "leakage_indicators": [],
+    "flagged_entries": [
+        {
+            "line_number": 941,
+            "timestamp": "",
+            "direction": "INBOUND",
+            "src_ip": "0000000a",
+            "dst_ip": "Performing",
+            "dst_port": 0,
+            "bytes_sent": 1,
+            "reason": "high_bytes_sent",
+            "confidence": "Medium",
+            "risk_contribution": 4.0,
+            "risk_contribution_pct": 100.0
+        }
+    ],
+    "explanation": {
+        "summary": "Severity level LOW assigned due to anomalous firewall behavior and detected leakage indicators.",
+        "reasons": [],
+        "recommended_action": "Continue monitoring the system."
+    },
+    "recommendation": "Continue monitoring the system."
+}
